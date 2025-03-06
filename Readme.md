@@ -20,7 +20,7 @@ Now that we have created a freestyle project named (my-first-job), we need to co
 
 - And Saving the configuration and run "build now" to connect jenkins to my repository.
 
-![alt text](images/first-job.png)
+![alt text](images/build.png)
 
 ### Configuring Build Trigger 
 
