@@ -18,19 +18,26 @@ Now that we have created a freestyle project named (my-first-job), we need to co
 
 - Connecting jenkins to  repository (my-first-job) by pasting the repository url in the jenkins settings area, Making sure my current branch is `main`
 
+![alt text](images/jenkins-configure.png)
+
+
 - And Saving the configuration and run "build now" to connect jenkins to my repository.
 
 ![alt text](images/build.png)
 
 ### Configuring Build Trigger 
 
-As an engineer, automating makes our work easier in possible ways. I have connected jenkins to my-first-job, but i can't run a new build with clicking on 'Build Now' To eliminate this, I need to confiure a build trigger to my jenkins job. With this, jenkins will run a new build anytime a change is made to my github repository 
+As an engineer, automating makes our work easier in possible ways. I have connected jenkins to my-first-job, but i can't run a new build with clicking on 'Build Now' To eliminate this, I need to confiure a build trigger to my jenkins job. With this, jenkins will run a new build anytime a change is made to my github repository.
 
 - Click "Configure" your job and add this configurations.
 
 - Click on build trigger to configure triggering the job from GitHub webhook.
 
+
+
 ![alt text](images/build-trigger.png)
 
 
 - Creating a github webhook using jenkins ip address and port Now, once i push to my GitHub repository (e.g. README.MD file) a new build will be launched automatically (by webhook).
+
+![alt text](images/webhook.png)
