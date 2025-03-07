@@ -2,6 +2,10 @@
 
 In Jenkins, a job is a unit of work or a task that can be executed by the Jenkins automation server. A Jenkins job represents a specific task or set of tasks that needs to be performed as part of a build or deployment process. Jobs in Jenkins are created to automate the execution of various steps such as compiling code, running tests, packaging applications, and deploying them to servers. Each Jenkins job is configured with a series of build steps, post-build actions, and other settings that define how the job should be executed. Creating a Freestyle Project Let's create our first build job.
 
+### Objectives
+
+Learning how to connect Jenkins to github account and how the github repository url is linked to Jenkins account. Finally, how build trigger is configured to automate work process by running a new build anytime changes are made to github repository.
+
 ### Creating a Freestyle Job
 
 - From the dashboard menu below, the new item is clicked on.
