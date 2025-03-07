@@ -4,7 +4,9 @@ In Jenkins, a job is a unit of work or a task that can be executed by the Jenkin
 
 ### Objectives
 
-Learning how to connect Jenkins to github account and how the github repository url is linked to Jenkins account. Finally, how build trigger is configured to automate work process by running a new build anytime changes are made to github repository.
+- Learning how to connect Jenkins to github account.
+- Learning how the github repository url is linked to Jenkins account.
+- Finally, how build trigger is configured to automate work process by running a new build anytime changes are made to github repository.
 
 ### Creating a Freestyle Job
 
